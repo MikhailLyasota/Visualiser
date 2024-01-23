@@ -94,7 +94,8 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 1b703be31e4b09f4cad595b2afd7e9e9,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2514,7 +2515,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 85.6
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -2540,8 +2541,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529129700}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.010054492, y: 0.96794784, z: -0.25093848, w: -0.0024150503}
-  m_LocalPosition: {x: -0.4, y: 20.96, z: 41.03}
+  m_LocalRotation: {x: 0.11500178, y: 0.09496701, z: 0.011059742, w: -0.98875356}
+  m_LocalPosition: {x: 0.05492774, y: -4.0359745, z: -3.42128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3765,7 +3766,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EdgeColor: {r: 0, g: 32.966263, b: 33.896763, a: 0}
+    - _EdgeColor: {r: 0.8113208, g: 0.025970692, b: 0.016838714, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
@@ -7101,6 +7102,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443144892}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1476133046
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476133048}
+  - component: {fileID: 1476133047}
+  m_Layer: 0
+  m_Name: StaticLightingSky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1476133047
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476133046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Profile: {fileID: 0}
+  m_StaticLightingSkyUniqueID: 0
+  m_StaticLightingCloudsUniqueID: 0
+  m_StaticLightingVolumetricClouds: 0
+--- !u!4 &1476133048
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476133046}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1504432989
 GameObject:
   m_ObjectHideFlags: 0
@@ -9689,13 +9738,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013981053}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.04397535, y: 0.9416285, z: -0.26189762, w: -0.20690994}
-  m_LocalPosition: {x: 26.44, y: 0.77000046, z: -3.619999}
+  m_LocalRotation: {x: -0.04515844, y: 0.9425539, z: -0.26169625, w: -0.20265251}
+  m_LocalPosition: {x: 26.23, y: -0.9200001, z: -4.0699997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 278270461}
-  m_LocalEulerAnglesHint: {x: 30.758, y: 205.255, z: 1.705}
+  m_LocalEulerAnglesHint: {x: 30.772, y: 204.652, z: 1.396}
 --- !u!114 &2013981055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9711,10 +9760,10 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 674.94
+  m_Intensity: 616574.9
   m_EnableSpotReflector: 1
-  m_LuxAtDistance: 1
-  m_InnerSpotPercent: 0.7675919
+  m_LuxAtDistance: 21.22
+  m_InnerSpotPercent: 30.46831
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
@@ -9774,7 +9823,7 @@ MonoBehaviour:
   m_EvsmBlurPasses: 0
   m_LightlayersMask: 1
   m_LinkShadowLayers: 1
-  m_ShadowNearPlane: 0.1
+  m_ShadowNearPlane: 1.3
   m_BlockerSampleCount: 24
   m_FilterSampleCount: 16
   m_MinFilterSize: 0.1
@@ -9847,10 +9896,10 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 1, g: 0.41320753, b: 0.41320753, a: 1}
-  m_Intensity: 674.94
-  m_Range: 41.6
-  m_SpotAngle: 130.27756
+  m_Color: {r: 0.82641506, g: 0.1917906, b: 0.1917906, a: 1}
+  m_Intensity: 277636480
+  m_Range: 51.5
+  m_SpotAngle: 47.098034
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -10349,3 +10398,4 @@ SceneRoots:
   - {fileID: 1588154379}
   - {fileID: 529129704}
   - {fileID: 6116066}
+  - {fileID: 1476133048}
