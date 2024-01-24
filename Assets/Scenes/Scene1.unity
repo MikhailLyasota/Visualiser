@@ -8625,7 +8625,7 @@ MonoBehaviour:
           data2: 0
       bufferClearing:
         clearColorMode: 0
-        backgroundColorHDR: {r: 0.023529412, g: 0.07058824, b: 0.1882353, a: 0}
+        backgroundColorHDR: {r: 0.0627451, g: 0.0627451, b: 0.0627451, a: 0}
         clearDepth: 1
       volumes:
         layerMask:
